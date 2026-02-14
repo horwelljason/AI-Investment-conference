@@ -28,7 +28,7 @@ agents = {
     "Claude-3.5-Sonnet": {"client": anthropic_client, "model": "claude-3-5-sonnet-20241022", "style": "Value & Quality Investor"},
     "Gemini-1.5-Pro": {"client": genai.GenerativeModel("gemini-1.5-pro"), "style": "Risk-Averse Balanced Investor"},
     "Groq-Llama-3.1-70B": {"client": groq_client, "model": "llama-3.1-70b-versatile", "style": "Momentum & Data-Driven Quant"},
-    "Grok-4": {"client": xai_client, "model": "grok-4", "style": "Truth-Seeking Contrarian"},
+    "Grok-4": {"client": xai_client, "model": "grok-4-1-fast-reasoning", "style": "Truth-Seeking Contrarian"},
 }
 
 # Moderator for consensus & street vibe
