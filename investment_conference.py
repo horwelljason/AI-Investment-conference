@@ -26,7 +26,7 @@ xai_client = XAIClient(api_key=XAI_API_KEY)
 agents = {
     "GPT-4o": {"client": openai_client, "model": "gpt-4o", "style": "Aggressive Growth Investor"},
     "Claude-3.5-Sonnet": {"client": anthropic_client, "model": "claude-3-5-sonnet-20241022", "style": "Value & Quality Investor"},
-    "Gemini-1.5-Pro": {"client": genai.GenerativeModel("gemini-1.5-pro"), "style": "Risk-Averse Balanced Investor"},
+    "Gemini-1.5-Pro": {"client": genai.GenerativeModel("gemini-1.5-pro"), "model": "gemini-1.5-pro", "style": "Risk-Averse Balanced Investor"},
     "Groq-Llama-3.1-70B": {"client": groq_client, "model": "llama-3.1-70b-versatile", "style": "Momentum & Data-Driven Quant"},
     "Grok-4": {"client": xai_client, "model": "grok-4-1-fast-reasoning", "style": "Truth-Seeking Contrarian"},
 }
